@@ -210,7 +210,7 @@ if (isset($_SESSION['token'])) {
 								<label for="username" class="text-uppercase">Username:</label>
 								<input type="text" class="input-loginform form-control" name="user" autofocus><span class="fa fa-user fa-2x icon"></span><br>
 								<label for="password" class="text-uppercase">Password:</label>
-								<input type="password" class="input-loginform form-control" name="pass"><span class="fa fa-lock fa-2x icon"></span><br>
+								<input type="password" autocomplete="off" class="input-loginform form-control" name="pass"><span class="fa fa-lock fa-2x icon"></span><br>
 								<div class="form-check text-center">
 									<button type="submit" class="btn btn-login">Login</button>
 								</div>
